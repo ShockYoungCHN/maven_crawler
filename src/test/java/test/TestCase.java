@@ -13,8 +13,6 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.Set;
-import java.util.Vector;
 
 import static test.Selenium_extension.*;
 
@@ -30,15 +28,16 @@ public class TestCase {
     }
 
     @Test
-    public void openHIT() throws InterruptedException, IOException {
+    public void openHIT() throws InterruptedException {
         //webDriver.manage().window().maximize();
         webDriver.get("http://authserver-hitwh-edu-cn.ivpn.hitwh.edu.cn:8118/authserver/login?service=https%3A%2F%2Fivpn.hitwh.edu.cn%2Fauth%2Fcas_validate%3Fentry_id%3D1");
-        webDriver.findElement(By.id("username")).sendKeys("2200120719");
-        webDriver.findElement(By.id("password")).sendKeys("YYZyyz8988051.");
+        webDriver.findElement(By.id("username")).sendKeys("");
+        webDriver.findElement(By.id("password")).sendKeys("");
         webDriver.findElement(By.cssSelector("[class='auth_login_btn primary full_width']")).click();
         webDriver.findElement(By.id("details-button")).click();
         webDriver.findElement(By.id("proceed-link")).click();
         Thread.sleep(9000);
+        //到此为止登陆完成
 
         webDriver.findElement(By.xpath("//*[@class=\"rs-list__item__href\" and @title=\"新教务系统\"]")).click();
         Thread.sleep(3000);
@@ -74,7 +73,7 @@ public class TestCase {
 
         String s="/html/body/div[1]/div/div[5]/ul/li[";
         int i=3;
-        By b=By.xpath(s+i+"]/a");
+        By b=By.xpath(s+i+"]/a");//翻页元素
         Vector<Object> head=new Vector<>();//表头
 
 

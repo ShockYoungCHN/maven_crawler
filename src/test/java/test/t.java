@@ -1,7 +1,5 @@
 package test;
 
-import org.openqa.selenium.By;
-
 public class t {
     public static void main(String[] args) {
         String s="/html/body/div[1]/div/div[5]/ul/li[";
