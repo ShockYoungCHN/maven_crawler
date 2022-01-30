@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Main-Class: HIT.UI.App
+Class-Path: selenium-devtools-v94-4.1.1.jar reactive-streams-1.0.3.jar o
+ pentelemetry-exporter-logging-1.9.1.jar selenium-ie-driver-4.1.1.jar ja
+ ckson-core-2.13.0.jar guava-31.0.1-jre.jar selenium-java-4.1.1.jar sele
+ nium-edge-driver-4.1.1.jar checker-qual-3.12.0.jar netty-transport-clas
+ ses-epoll-4.1.70.Final.jar opentelemetry-sdk-extension-autoconfigure-1.
+ 9.1-alpha.jar selenium-chromium-driver-4.1.1.jar selenium-firefox-drive
+ r-4.1.1.jar opentelemetry-semconv-1.9.1-alpha.jar selenium-chrome-drive
+ r-4.1.1.jar jakarta.activation-1.2.2.jar opentelemetry-context-1.9.1.ja
+ r selenium-api-4.1.1.jar jcommander-1.78.jar jackson-annotations-2.13.0
+ .jar failureaccess-1.0.1.jar netty-transport-native-kqueue-4.1.60.Final
+ -osx-x86_64.jar async-http-client-netty-utils-2.12.3.jar opentelemetry-
+ api-1.9.1.jar selenium-json-4.1.1.jar opentelemetry-sdk-metrics-1.9.1-a
+ lpha.jar selenium-http-4.1.1.jar j2objc-annotations-1.3.jar auto-servic
+ e-annotations-1.0.1.jar netty-buffer-4.1.70.Final.jar selenium-devtools
+ -v95-4.1.1.jar opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar 
+ opentelemetry-sdk-logs-1.9.1-alpha.jar netty-transport-native-unix-comm
+ on-4.1.70.Final.jar netty-common-4.1.70.Final.jar netty-codec-socks-4.1
+ .60.Final.jar selenium-opera-driver-4.1.1.jar selenium-firefox-xpi-driv
+ er-4.1.1.jar byte-buddy-1.12.2.jar failsafe-2.4.4.jar jackson-databind-
+ 2.13.0.jar sqlite-jdbc-3.36.0.3.jar netty-reactive-streams-2.0.4.jar ne
+ tty-transport-classes-kqueue-4.1.70.Final.jar netty-transport-native-ep
+ oll-4.1.60.Final-linux-x86_64.jar error_prone_annotations-2.7.1.jar sel
+ enium-devtools-v96-4.1.1.jar selenium-devtools-v85-4.1.1.jar selenium-r
+ emote-driver-4.1.1.jar async-http-client-2.12.3.jar slf4j-api-1.7.32.ja
+ r selenium-safari-driver-4.1.1.jar jtoml-2.0.0.jar opentelemetry-api-me
+ trics-1.9.1-alpha.jar opentelemetry-sdk-trace-1.9.1.jar netty-transport
+ -4.1.70.Final.jar netty-codec-http-4.1.70.Final.jar netty-handler-4.1.7
+ 0.Final.jar netty-codec-4.1.70.Final.jar commons-exec-1.3.jar auto-comm
+ on-1.2.jar auto-service-1.0.1.jar netty-resolver-4.1.70.Final.jar liste
+ nablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar opentelemetry
+ -sdk-common-1.9.1.jar jsr305-3.0.1.jar selenium-support-4.1.1.jar netty
+ -handler-proxy-4.1.60.Final.jar opentelemetry-sdk-1.9.1.jar
+

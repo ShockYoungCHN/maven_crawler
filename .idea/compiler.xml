@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven_crawler" />
-        <module name="maven-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="maven-project" target="8" />
       <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>
