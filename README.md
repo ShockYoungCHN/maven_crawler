@@ -1,6 +1,6 @@
 # maven_crawler
 
-开发环境：java jdk17；
+开发环境：java sdk17；
 
 图形界面：java swing；
 
